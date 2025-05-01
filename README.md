@@ -39,29 +39,29 @@ I’ll walk you through the Python code we wrote for the Raspberry Pi. It plays 
 ## Importing Libraries
 ![Στιγμιότυπο οθόνης (89)](https://github.com/user-attachments/assets/84b811a7-627c-49e9-a2f0-d7ac9936e853)
 
-“We start by importing the RPi.GPIO library to read input from the button. We also import time for delays and os to run commands to play audio files.”
+We start by importing the RPi.GPIO library to read input from the button. We also import time for delays and os to run commands to play audio files.
 
 ## Pin Assignments
 ![Στιγμιότυπο οθόνης (90)](https://github.com/user-attachments/assets/933b988f-c8ae-4525-979e-6a0f9d95f7f0)
 
-“We connect a button to GPIO pin 10. When the button is pressed, the Raspberry Pi will know and trigger a sound.”
+We connect a button to GPIO pin 10. When the button is pressed, the Raspberry Pi will know and trigger a sound.
 
 ## GPIO Setup
 ![Στιγμιότυπο οθόνης (91)](https://github.com/user-attachments/assets/d1b17a37-6b56-44d5-8cb9-8dc7571eedc6)
 
-“We set the pin mode to use the physical layout of the board and define our button pin as an input with a pull-up resistor to detect button presses correctly.”
+We set the pin mode to use the physical layout of the board and define our button pin as an input with a pull-up resistor to detect button presses correctly.
 
 ## Play Sound Function
 ![Στιγμιότυπο οθόνης (92)](https://github.com/user-attachments/assets/c091b31a-b00e-432e-b721-7f827a675d0f)
 
-“This function plays a .wav file using the aplay command. You can replace the filename with any sound you want.”
+This function plays a .wav file using the aplay command. You can replace the filename with any sound you want.
 
 ## Main Loop Begins
 ![Στιγμιότυπο οθόνης (93)](https://github.com/user-attachments/assets/dc52ac07-9ff4-4b54-bfd9-36018e67541b)
 
-“This is the loop that keeps checking for the button press. When it detects a press, it plays the sound and waits one second before checking again. If we stop the program using Ctrl+C, it cleans up the pins.”
+This is the loop that keeps checking for the button press. When it detects a press, it plays the sound and waits one second before checking again. If we stop the program using Ctrl+C, it cleans up the pins.
 
 ## Cleanup on Exit
 ![Στιγμιότυπο οθόνης (94)](https://github.com/user-attachments/assets/d03cee8f-89d6-44fe-a463-000766a97996)
 
-“This command ensures that all GPIO pins are safely reset when the program ends. It’s good practice to include this to avoid issues in future programs.”
+This command ensures that all GPIO pins are safely reset when the program ends. It’s good practice to include this to avoid issues in future programs.
