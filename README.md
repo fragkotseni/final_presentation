@@ -30,7 +30,7 @@ If you're using analog speakers or headphones, this is where you connect them. F
 
 ## Physical Part
 
-[Insert a labeled photo or diagram of your speaker setup with Raspberry Pi, wires, and button.]
+![IMG_2307](https://github.com/user-attachments/assets/56f97167-3047-4944-bf1d-cb02476bdaaf)
 
 ## Programming Part
 
@@ -67,3 +67,6 @@ What is a Raspberry Pi? Raspberry Pi. (2025, March 18). https://raspberrypi.cl/q
 Timmons-Brown, M. (2019a). Learn robotics with Raspberry Pi: Build and code your own moving, sensing, thinking Robots. No Starch Press, Inc.
 
 Raspberry Pi Documentation. (2025). Playing audio on the Raspberry Pi. https://www.raspberrypi.com/documentation/computers/audio.html
+
+![IMG_2306](https://github.com/user-attachments/assets/4aa1157d-6e56-4805-bc7c-4c24d370296e)
+
