@@ -41,11 +41,6 @@ I’ll walk you through the Python code we wrote for the Raspberry Pi. It plays 
 
 We start by importing the RPi.GPIO library to read input from the button. We also import time for delays and os to run commands to play audio files.
 
-## Pin Assignments
-![Στιγμιότυπο οθόνης (90)](https://github.com/user-attachments/assets/933b988f-c8ae-4525-979e-6a0f9d95f7f0)
-
-We connect a button to GPIO pin 10. When the button is pressed, the Raspberry Pi will know and trigger a sound.
-
 ## GPIO Setup
 ![Στιγμιότυπο οθόνης (91)](https://github.com/user-attachments/assets/d1b17a37-6b56-44d5-8cb9-8dc7571eedc6)
 
