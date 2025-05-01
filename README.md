@@ -60,3 +60,10 @@ This is the loop that keeps checking for the button press. When it detects a pre
 ![Στιγμιότυπο οθόνης (94)](https://github.com/user-attachments/assets/d03cee8f-89d6-44fe-a463-000766a97996)
 
 This command ensures that all GPIO pins are safely reset when the program ends. It’s good practice to include this to avoid issues in future programs.
+
+## References
+What is a Raspberry Pi? Raspberry Pi. (2025, March 18). https://raspberrypi.cl/que-es-raspberry/
+
+Timmons-Brown, M. (2019a). Learn robotics with Raspberry Pi: Build and code your own moving, sensing, thinking Robots. No Starch Press, Inc.
+
+Raspberry Pi Documentation. (2025). Playing audio on the Raspberry Pi. https://www.raspberrypi.com/documentation/computers/audio.html
